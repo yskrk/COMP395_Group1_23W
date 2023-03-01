@@ -5,6 +5,7 @@ using UnityEngine;
 public class CustomerInstance : MonoBehaviour
 {
     public double serviceTime;
+    public Transform target;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +16,6 @@ public class CustomerInstance : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * Time.deltaTime;
+        //transform.position += transform.forward * Time.deltaTime;
     }
 }

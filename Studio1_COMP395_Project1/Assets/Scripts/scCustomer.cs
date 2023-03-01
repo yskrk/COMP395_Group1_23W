@@ -24,6 +24,7 @@ public class scCustomer : MonoBehaviour
     public TextAsset target;
     public bool simulationRunning = false;
     public GameObject customerPrefab;
+    public Transform atmLocation;
     public Transform spawnPoint;
     int count=0;
     public int cursor = 0;
@@ -38,7 +39,7 @@ public class scCustomer : MonoBehaviour
             string[] result = inp_ln.Split("	");
             //Debug.Log(result[0]+" "+result[1]+" "+result[2]);
             newCustomer[count] = new Customer(int.Parse(result[0]),double.Parse(result[1]),double.Parse(result[2]));
-            Debug.Log("New Customer "+newCustomer[count].number+": ("+newCustomer[count].interarrival+","+newCustomer[count].service+")");
+            //Debug.Log("New Customer "+newCustomer[count].number+": ("+newCustomer[count].interarrival+","+newCustomer[count].service+")");
             count++;
         }
         inp_stm.Close( );  
@@ -64,6 +65,7 @@ public class scCustomer : MonoBehaviour
             GameObject customerGO = Instantiate( customerPrefab , spawnPoint.position , Quaternion.identity );
             if (cursor < newCustomer.Length) {
                 customerGO.GetComponent<CustomerInstance>().serviceTime = newCustomer[cursor].service;
+                customerGO.GetComponent<UnityEngine.AI.NavMeshAgent>().SetDestination(atmLocation.position);
                 float waitTime = (float) newCustomer[cursor].interarrival;
                 cursor++;
                 yield return new WaitForSeconds( waitTime );
