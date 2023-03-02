@@ -16,7 +16,9 @@ public class ATMService : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if ( currentCustomer != null && currentCustomer.transform.position.x < 0 ) {
+            currentCustomer.transform.position = new Vector3 ( 0 , currentCustomer.transform.position.y , currentCustomer.transform.position.z );
+        }
     }
 
     private void OnTriggerEnter(Collider other) {

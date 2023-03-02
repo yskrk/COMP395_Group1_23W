@@ -286,6 +286,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serviceTime: 0
   target: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: c3cb017c184358648a0d1ef67dae5f73, type: 2}
+  - {fileID: 2100000, guid: 58e56f81bda4ae44691dba09e2dfbfb0, type: 2}
+  - {fileID: 2100000, guid: fcadf256f54d04848867255b31933e6c, type: 2}
+  - {fileID: 2100000, guid: b5667c7abd6f9c6468519acdc3cce216, type: 2}
+  - {fileID: 2100000, guid: 2a3258b37a29b2b40b9b3776fa2f6533, type: 2}
+  - {fileID: 2100000, guid: f56453baa2fef874db5bbb0bdeba6977, type: 2}
+  - {fileID: 2100000, guid: 09a587760c1fa3c49bd3e00eef317e47, type: 2}
+  - {fileID: 2100000, guid: 7bf500475bf053d4f98d15aaa203c7cd, type: 2}
 --- !u!195 &6286260338222133531
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -295,8 +304,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 6271816021058557316}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 2
-  m_Speed: 30
+  m_Radius: 1
+  m_Speed: 1.5
   m_Acceleration: 100
   avoidancePriority: 50
   m_AngularSpeed: 360
