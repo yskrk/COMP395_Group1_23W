@@ -6,6 +6,7 @@ public class ATMService : MonoBehaviour
 {
     public Transform serviceLocation;
     public Transform endLocation;
+    public GameObject currentCustomer;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,13 +19,22 @@ public class ATMService : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision other) {
-        Service( other );
+    private void OnTriggerEnter(Collider other) {
+        currentCustomer = other.gameObject;
+        StartCoroutine(Service());
     }
 
-    IEnumerator Service( Collision other ) {
-        UnityEngine.AI.NavMeshAgent agent = other.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
-        yield return new WaitForSeconds( (float) other.gameObject.GetComponent<CustomerInstance>().serviceTime);
-        agent.SetDestination(endLocation.position);
+    IEnumerator Service() {
+        if ( currentCustomer != null ) {
+            UnityEngine.AI.NavMeshAgent agent = currentCustomer.GetComponent<UnityEngine.AI.NavMeshAgent>();
+            CustomerInstance ci = currentCustomer.GetComponent<CustomerInstance>();
+            agent.isStopped = true;
+            yield return new WaitForSeconds((float) ci.serviceTime);
+            ci.target = endLocation;
+            agent.isStopped = false;
+            agent.SetDestination(ci.target.position);
+            currentCustomer = null;
+        }
+        
     }
 }

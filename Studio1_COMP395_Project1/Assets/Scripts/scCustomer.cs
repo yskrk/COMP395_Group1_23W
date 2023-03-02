@@ -64,7 +64,9 @@ public class scCustomer : MonoBehaviour
         while ( simulationRunning ) {
             GameObject customerGO = Instantiate( customerPrefab , spawnPoint.position , Quaternion.identity );
             if (cursor < newCustomer.Length) {
-                customerGO.GetComponent<CustomerInstance>().serviceTime = newCustomer[cursor].service;
+                CustomerInstance ci = customerGO.GetComponent<CustomerInstance>();
+                ci.serviceTime = newCustomer[cursor].service;
+                ci.target = atmLocation;
                 customerGO.GetComponent<UnityEngine.AI.NavMeshAgent>().SetDestination(atmLocation.position);
                 float waitTime = (float) newCustomer[cursor].interarrival;
                 cursor++;
