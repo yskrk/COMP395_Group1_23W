@@ -6,12 +6,12 @@ public class ServePlate : MonoBehaviour
 { 
     private void OnMouseDown()
     {
-        if(GameFlow.orderValue == GameFlow.plateValue)
+        if (GameFlow.orderValue[GameFlow.plateNum] == GameFlow.plateValue[GameFlow.plateNum])
         {
-            Debug.Log("correct");
+            Debug.Log("Correct. Time Left " + GameFlow.orderTimer[GameFlow.plateNum] + " sec");
         } else
         {
-            Debug.Log("incorrect");
+            Debug.Log("Incorrect. Time Left " + GameFlow.orderTimer[GameFlow.plateNum] + " sec");
         }
     }
 }

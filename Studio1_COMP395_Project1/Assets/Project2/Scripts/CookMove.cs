@@ -17,15 +17,15 @@ public class CookMove : MonoBehaviour
 
     private void OnMouseDown()
     {
-        GetComponent<Transform>().position = new Vector3(-.1f, .66f, -1f);
-        GameFlow.plateValue += foodValue;
+        GetComponent<Transform>().position = new Vector3(-.1f, .66f, GameFlow.plateZpos);
+        GameFlow.plateValue[GameFlow.plateNum] += foodValue;
         stillCooking = "n";
     }
 
     IEnumerator cookTimer()
     {
-        yield return new WaitForSeconds(10); //Cooks the patty for X seconds
-        foodValue = 1000;
+        yield return new WaitForSeconds(7); //Cooks the patty for X seconds
+        foodValue = 100000000; //Digit Value
         if (stillCooking == "y")
             meatMat.material.color = new Color(.36f, .25f, .2f); //Changes Patty Color
     }

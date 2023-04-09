@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &104102488771536186
+--- !u!1 &7402393069525483095
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 736910310585565056}
-  - component: {fileID: 4437685626154348581}
-  - component: {fileID: 1905344632885708015}
-  - component: {fileID: 986483451495487136}
-  - component: {fileID: -9070076103950268499}
-  - component: {fileID: -6342044408417845156}
+  - component: {fileID: 7922190092696904941}
+  - component: {fileID: 6511816380199627592}
+  - component: {fileID: 9059669284318257026}
+  - component: {fileID: 6881762698347398570}
+  - component: {fileID: 5766174313718800318}
+  - component: {fileID: 7050405200503685445}
+  - component: {fileID: 7050405200503685444}
+  - component: {fileID: 7050405200503685447}
   m_Layer: 0
-  m_Name: Cheese Slice G
+  m_Name: Lettuce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &736910310585565056
+--- !u!4 &7922190092696904941
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104102488771536186}
+  m_GameObject: {fileID: 7402393069525483095}
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.427, y: 0, z: -4.088}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4437685626154348581
+--- !u!33 &6511816380199627592
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104102488771536186}
-  m_Mesh: {fileID: 8926027954496183188, guid: 71e31b58774b4e14b2aa1359a4a8a924, type: 3}
---- !u!23 &1905344632885708015
+  m_GameObject: {fileID: 7402393069525483095}
+  m_Mesh: {fileID: 848127219810371119, guid: 77b06b3fac5346c497b4e916a2318e27, type: 3}
+--- !u!23 &9059669284318257026
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104102488771536186}
+  m_GameObject: {fileID: 7402393069525483095}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,13 +88,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &986483451495487136
+--- !u!64 &6881762698347398570
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104102488771536186}
+  m_GameObject: {fileID: 7402393069525483095}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -107,14 +109,70 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 8926027954496183188, guid: 71e31b58774b4e14b2aa1359a4a8a924, type: 3}
---- !u!54 &-9070076103950268499
+  m_Mesh: {fileID: 848127219810371119, guid: 77b06b3fac5346c497b4e916a2318e27, type: 3}
+--- !u!65 &5766174313718800318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402393069525483095}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5492169, y: 0.0073595564, z: 0.81517947}
+  m_Center: {x: 0.0033203661, y: 0.003679761, z: 0.014894724}
+--- !u!114 &7050405200503685445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402393069525483095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloneObj: {fileID: 876328113448396204, guid: 46e2f1b7568b4503888fe868adb7db73, type: 3}
+  foodValue: 100000
+--- !u!65 &7050405200503685444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402393069525483095}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5492169, y: 0.0073595564, z: 0.81517947}
+  m_Center: {x: 0.0033203661, y: 0.003679761, z: 0.014894724}
+--- !u!54 &7050405200503685447
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104102488771536186}
+  m_GameObject: {fileID: 7402393069525483095}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -130,29 +188,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &-6342044408417845156
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104102488771536186}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.4044878, y: 0.03386881, z: 0.4044878}
-  m_Center: {x: 0.000042364, y: -0.011143956, z: -0.000042364}
