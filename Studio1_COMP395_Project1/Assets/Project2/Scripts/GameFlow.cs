@@ -17,6 +17,7 @@ public class GameFlow : MonoBehaviour
     public float minTime = 30;
     public float maxTime = 90;
     public Plate[] plates;
+    // private bool waiting = false;
     void Start() {
     }
 
@@ -38,6 +39,14 @@ public class GameFlow : MonoBehaviour
             if ( plateNum < 0 ) plateNum+= maxPlates;
             plateZpos = -1 - 2 * plateNum;
             plateSelector.position = new Vector3(0, 0, plateZpos);
+        }
+
+        foreach ( Plate p in plates ) {
+            if ( p.ordered == false ) {
+                int x = UnityEngine.Random.Range(0,Orders.possibleOrders.Length);
+                Debug.Log(x);
+                p.OrderUp( x );
+            }
         }
     }
 

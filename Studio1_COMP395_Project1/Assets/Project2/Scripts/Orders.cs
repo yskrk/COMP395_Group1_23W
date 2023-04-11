@@ -20,10 +20,10 @@ public class Orders {
     public List<Tuple<int, FoodValues>> recipe;
     private int maxValue = 0;
 
-    private static string[] possibleOrders = {
+    public static string[] possibleOrders = {
         "1*2", // only patty
         "1*2/1*3", // cheeseburger: patty and american cheese
-        "1*2/1*3/1*8/1*9/1*5" // BLT burger: patty, cheese, tomato, bacon, lettuce
+        "1*2/1*3/1*9/1*8/1*5" // BLT burger: patty, cheese, tomato, bacon, lettuce
     };
 
     // public Orders( string args ) {

@@ -53,11 +53,9 @@ public class Plate : MonoBehaviour
             value -= 1 / (float)order.getMaxValue();
         }
         else {
-            Debug.Log(cursor >= order.recipe.Count );
             int oneLess = order.recipe[cursor].Item1 - 1;
             order.recipe[cursor] = new Tuple<int,FoodValues>( oneLess ,order.recipe[cursor].Item2);
             if ( oneLess == 0 ) cursor++;
-            Debug.Log(cursor >= order.recipe.Count );
             if ( cursor >= order.recipe.Count ) { Serve(); }
         }
     }
