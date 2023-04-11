@@ -56,18 +56,19 @@ public class Plate : MonoBehaviour
             int oneLess = order.recipe[cursor].Item1 - 1;
             order.recipe[cursor] = new Tuple<int,FoodValues>( oneLess ,order.recipe[cursor].Item2);
             if ( oneLess == 0 ) cursor++;
-            if ( cursor >= order.recipe.Count ) { Serve(); }
+            if ( cursor >= order.recipe.Count ) { StartCoroutine(Serve()); }
         }
     }
 
-    private void Serve() {
+    public IEnumerator Serve() {
+        yield return new WaitForSeconds( 1f );
         if ( value < 0.1 ) value = 0.1f;
         float score = order.getMaxValue() * value * 100;
-        Reset();
         foreach ( Transform t in transform.GetComponentInChildren<Transform>() ) {
             if (t.CompareTag("GameController")){}
             else Destroy(t.gameObject);
         }
+        Reset();
     }
 
     private void Die() {
@@ -75,9 +76,9 @@ public class Plate : MonoBehaviour
     }
 
     private void Reset() {
-        StopAllCoroutines();
         currentTime = 0;
         ordered = false;
         cursor = 0;
+        StopAllCoroutines();
     }
 }
