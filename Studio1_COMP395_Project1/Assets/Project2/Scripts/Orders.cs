@@ -23,7 +23,13 @@ public class Orders {
     public static string[] possibleOrders = {
         "1*2", // only patty
         "1*2/1*3", // cheeseburger: patty and american cheese
-        "1*2/1*3/1*9/1*8/1*5" // BLT burger: patty, cheese, tomato, bacon, lettuce
+        "1*2/1*3/1*9/1*5/1*8" // BLT burger: patty, cheese, bacon, lettuce, tomato
+    };
+
+    public static string[] orderTexts = {
+        "1x Patty\n",
+        "1x Patty\n1x American Cheese",
+        "1x Patty\n1x American Cheese\n1x Bacon\n1x Lettuce\n1x Tomato"
     };
 
     // public Orders( string args ) {

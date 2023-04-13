@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 [Serializable]
 public class Plate : MonoBehaviour
 {
+    public TextMeshProUGUI tmp;
     public Image image;
     [SerializeField] public Orders order;
     private float value = 1;
@@ -41,6 +43,7 @@ public class Plate : MonoBehaviour
 
     public void OrderUp( int x ) {
         order = new Orders( x );
+        tmp.SetText( Orders.orderTexts[x]);
         ordered = true;
         cursor = 0;
         StartCoroutine("ChangeTimer");
@@ -50,9 +53,11 @@ public class Plate : MonoBehaviour
         
         Instantiate(obj, new Vector3(-0.1f, 1f, gf.plateZpos), Quaternion.identity, transform);
         if ( top != order.recipe[cursor].Item2 ) {
+            Debug.Log(order.recipe[cursor].Item2);
             value -= 1 / (float)order.getMaxValue();
         }
         else {
+            Debug.Log("Correct");
             int oneLess = order.recipe[cursor].Item1 - 1;
             order.recipe[cursor] = new Tuple<int,FoodValues>( oneLess ,order.recipe[cursor].Item2);
             if ( oneLess == 0 ) cursor++;

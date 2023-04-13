@@ -12,7 +12,7 @@ public class GameFlow : MonoBehaviour
     // public static float[] orderTimer = { 60, 60, 60 }; //Each order time
 
     public int plateNum = 0; //moves plates
-    public int plateZpos = -1;
+    public int plateZpos = -3;
     public int maxPlates = 3;
     public float minTime = 30;
     public float maxTime = 90;
@@ -26,18 +26,18 @@ public class GameFlow : MonoBehaviour
         if (Input.GetKeyDown("tab"))
         {
             plateNum = (++plateNum) % maxPlates;
-            plateZpos = -1 - 2 * plateNum;
+            plateZpos = 3 + -3 * plateNum;
             plateSelector.position = new Vector3(0, 0, plateZpos);
         }
         else if ( Input.GetKeyDown( KeyCode.RightArrow ) ) {
             plateNum = (++plateNum) % maxPlates;
-            plateZpos = -1 - 2 * plateNum;
+            plateZpos = 3 + -3 * plateNum;
             plateSelector.position = new Vector3(0, 0, plateZpos);
         }
         else if ( Input.GetKeyDown( KeyCode.LeftArrow ) ) {
             plateNum = (--plateNum) % maxPlates;
-            if ( plateNum < 0 ) plateNum+= maxPlates;
-            plateZpos = -1 - 2 * plateNum;
+            if ( plateNum < 0 ) plateNum += maxPlates;
+            plateZpos = 3 + -3 * plateNum;
             plateSelector.position = new Vector3(0, 0, plateZpos);
         }
 
