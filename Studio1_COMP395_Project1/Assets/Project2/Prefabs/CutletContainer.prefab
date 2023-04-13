@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObj: {fileID: 1393390446824998379}
+  cloneObj: {fileID: 1464022080181827960}
   type: 2
   gf: {fileID: 0}
 --- !u!54 &5453184103815126516
@@ -296,8 +296,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5571966, y: 0.06448297, z: 0.5571966}
-  m_Center: {x: 0, y: 0.03224148, z: 0}
+  m_Size: {x: 0.5571966, y: 0.06, z: 0.5571966}
+  m_Center: {x: 0, y: 0.03, z: 0}
 --- !u!1 &1760303541700230757
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObj: {fileID: 1760303541700230757}
+  cloneObj: {fileID: 1464022080181827960}
   type: 2
   gf: {fileID: 0}
 --- !u!54 &4311883585619096994
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObj: {fileID: 2192330368432888400}
+  cloneObj: {fileID: 1464022080181827960}
   type: 2
   gf: {fileID: 0}
 --- !u!54 &1122234822275121188
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObj: {fileID: 3955830715215094355}
+  cloneObj: {fileID: 1464022080181827960}
   type: 2
   gf: {fileID: 0}
 --- !u!54 &4374157511325098208
@@ -892,7 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObj: {fileID: 4150940088622544570}
+  cloneObj: {fileID: 1464022080181827960}
   type: 2
   gf: {fileID: 0}
 --- !u!54 &5862069597949889751
@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObj: {fileID: 5110635497272267707}
+  cloneObj: {fileID: 1464022080181827960}
   type: 2
   gf: {fileID: 0}
 --- !u!54 &8373797455736309535
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObj: {fileID: 5674951930522258061}
+  cloneObj: {fileID: 1464022080181827960}
   type: 2
   gf: {fileID: 0}
 --- !u!54 &6151224660781926096

@@ -18,6 +18,7 @@ public class Plate : MonoBehaviour
     public float currentTime = 0;
     public bool ordered = false;
     public GameFlow gf;
+    private float yValue = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +52,8 @@ public class Plate : MonoBehaviour
 
     public void Recieve( GameObject obj , FoodValues top ) {
         
-        Instantiate(obj, new Vector3(-0.1f, 1f, gf.plateZpos), Quaternion.identity, transform);
+        Instantiate(obj, new Vector3(-0.1f, yValue, gf.plateZpos), Quaternion.identity, transform);
+        yValue += 0.055f;
         if ( top != order.recipe[cursor].Item2 ) {
             Debug.Log(order.recipe[cursor].Item2);
             value -= 1 / (float)order.getMaxValue();
@@ -66,6 +68,7 @@ public class Plate : MonoBehaviour
     }
 
     public IEnumerator Serve() {
+        yValue = 0.5f;
         yield return new WaitForSeconds( 1f );
         if ( value < 0.1 ) value = 0.1f;
         float score = order.getMaxValue() * value * 100;
