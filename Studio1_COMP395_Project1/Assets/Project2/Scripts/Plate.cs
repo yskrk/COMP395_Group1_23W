@@ -43,11 +43,18 @@ public class Plate : MonoBehaviour
     }
 
     public void OrderUp( int x ) {
+        maxTime = 60;
         order = new Orders( x );
-        tmp.SetText( Orders.orderTexts[x]);
+        string recipeText = "Recipe:\n1x Bottom Bun\n" + Orders.orderTexts[x] + "1x Top Bun";
+        tmp.SetText( recipeText );
         ordered = true;
         cursor = 0;
         StartCoroutine("ChangeTimer");
+    }
+
+    public void OrderUp( int x , float newMaxTime ) {
+        maxTime = newMaxTime;
+        OrderUp( x );
     }
 
     public void Recieve( GameObject obj , FoodValues top ) {
@@ -59,7 +66,6 @@ public class Plate : MonoBehaviour
             value -= 1 / (float)order.getMaxValue();
         }
         else {
-            Debug.Log("Correct");
             int oneLess = order.recipe[cursor].Item1 - 1;
             order.recipe[cursor] = new Tuple<int,FoodValues>( oneLess ,order.recipe[cursor].Item2);
             if ( oneLess == 0 ) cursor++;
@@ -88,5 +94,13 @@ public class Plate : MonoBehaviour
         ordered = false;
         cursor = 0;
         StopAllCoroutines();
+    }
+
+    public void Activate() {
+        tmp.gameObject.SetActive(true);
+    }
+
+    public void Deactivate() {
+        tmp.gameObject.SetActive(false);
     }
 }
