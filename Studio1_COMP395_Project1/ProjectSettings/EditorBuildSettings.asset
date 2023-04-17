@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Project1/Scenes/MainScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Project2/Scene/MainMenu.unity
+    guid: 9e431f7b6be326c4eab80e45da0e191a
   - enabled: 1
     path: Assets/Project2/Scene/BusyBurger.unity
     guid: 2a7319fec44655248b099bccde22561a
