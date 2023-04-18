@@ -3,53 +3,53 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameFlow : MonoBehaviour
 {
-    public Orders[] orders;
     public Transform plateSelector;
     public GameObject pan;
-    // public static int[] orderValue = { 1111111111, 1211111111, 1100000001 }; //digits represent position of each food item. For example bottom bun is 10000
-    // public static int[] plateValue = { 0, 0, 0 };
-    // public static float[] orderTimer = { 60, 60, 60 }; //Each order time
-
     public int plateNum = 0; //moves plates
     public int plateZpos = -3;
     public int maxPlates = 3;
     public float minTime = 30;
     public float maxTime = 90;
+    public float currentGameTime = 0;
     public float maxGameTime = 300;
     public GameObject cookingFX;
     public Image timer;
     public Plate[] plates;
-    public int lives = 3;
+    public int lives = 10;
+    public int maxLives = 10;
+    public int score = 0;
+    public TextMeshProUGUI[] texts;
 
     void Start() {
+
     }
 
     void Update()
     {
+        currentGameTime += Time.deltaTime;
+        timer.fillAmount = Mathf.Clamp( currentGameTime / (maxGameTime / 0.67f) , 0f , 0.67f );
         if (Input.GetKeyDown("tab"))
         {
             plates[plateNum].Deactivate();
             plateNum = (++plateNum) % maxPlates;
-            plateZpos = 3 + -3 * plateNum;
-            plateSelector.position = new Vector3(0, 0, plateZpos);
+            plateSelector.position = plates[plateNum].transform.position;
             plates[plateNum].Activate();
         }
         else if ( Input.GetKeyDown( KeyCode.RightArrow ) ) {
             plates[plateNum].Deactivate();
             plateNum = (++plateNum) % maxPlates;
-            plateZpos = 3 + -3 * plateNum;
-            plateSelector.position = new Vector3(0, 0, plateZpos);
+            plateSelector.position = plates[plateNum].transform.position;
             plates[plateNum].Activate();
         }
         else if ( Input.GetKeyDown( KeyCode.LeftArrow ) ) {
             plates[plateNum].Deactivate();
             plateNum = (--plateNum) % maxPlates;
             if ( plateNum < 0 ) plateNum += maxPlates;
-            plateZpos = 3 + -3 * plateNum;
-            plateSelector.position = new Vector3(0, 0, plateZpos);
+            plateSelector.position = plates[plateNum].transform.position;
             plates[plateNum].Activate();
         }
 
@@ -73,6 +73,20 @@ public class GameFlow : MonoBehaviour
         GameObject patty = Instantiate( obj , new Vector3( -2.75f , 1f , 0.6f ) , Quaternion.identity , parent: pan.transform );
         Clickfood cf = patty.GetComponent<Clickfood>();
         cf.StartCoroutine("Cook");
+    }
+
+    public void Score( int points ) {
+        score += points;
+        texts[1].SetText( score.ToString() );
+    }
+
+    public void Damage() {
+        lives--;
+        texts[0].SetText( lives.ToString() + " / " + maxLives );
+    }
+
+    IEnumerator Countdown() {
+        yield return new WaitForSeconds( 0 );
     }
 
 }

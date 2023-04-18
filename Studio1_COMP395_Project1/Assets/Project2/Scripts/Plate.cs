@@ -19,6 +19,7 @@ public class Plate : MonoBehaviour
     public bool ordered = false;
     public GameFlow gf;
     private float yValue = 0.5f;
+    public GameObject[] stars;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +35,7 @@ public class Plate : MonoBehaviour
     }
 
     IEnumerator ChangeTimer() {
+        image.color = new Color( 1, 1 , 1 , 0.4f );
         yield return new WaitForSeconds( maxTime/2 );
         image.color = new Color( 1 , 1 , 0 , 0.4f );
         yield return new WaitForSeconds( maxTime/4 );
@@ -64,6 +66,7 @@ public class Plate : MonoBehaviour
         if ( top != order.recipe[cursor].Item2 ) {
             Debug.Log(order.recipe[cursor].Item2);
             value -= 1 / (float)order.getMaxValue();
+            if ( value < 0 ) Die();
         }
         else {
             int oneLess = order.recipe[cursor].Item1 - 1;
@@ -75,9 +78,22 @@ public class Plate : MonoBehaviour
 
     public IEnumerator Serve() {
         yValue = 0.5f;
+        stars[0].SetActive( true );
+        stars[1].SetActive( true );
+        stars[2].SetActive( true );
+        yield return new WaitForSeconds( 0.33f );
+        stars[3].SetActive( true );
+        if ( value >= 0.5f ) {
+            yield return new WaitForSeconds( 0.33f );
+            stars[4].SetActive( true );
+        }
+        if ( value >= 0.9f ) {
+            yield return new WaitForSeconds( 0.33f );
+            stars[5].SetActive( true );
+        }
         yield return new WaitForSeconds( 1f );
-        if ( value < 0.1 ) value = 0.1f;
         float score = order.getMaxValue() * value * 100;
+        gf.Score( Mathf.RoundToInt(score) );
         foreach ( Transform t in transform.GetComponentInChildren<Transform>() ) {
             if (t.CompareTag("GameController")){}
             else Destroy(t.gameObject);
@@ -86,6 +102,7 @@ public class Plate : MonoBehaviour
     }
 
     private void Die() {
+        gf.Damage();
         Reset();
     }
 
@@ -93,6 +110,9 @@ public class Plate : MonoBehaviour
         currentTime = 0;
         ordered = false;
         cursor = 0;
+        foreach ( GameObject go in stars ) {
+            go.SetActive( false );
+        }
         StopAllCoroutines();
     }
 

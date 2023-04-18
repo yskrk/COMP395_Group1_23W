@@ -638,7 +638,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4999140308885177636}
   - component: {fileID: 8272927842950384257}
-  - component: {fileID: 5718036171392974168}
   m_Layer: 0
   m_Name: ACheeseContainer
   m_TagString: Untagged
@@ -685,21 +684,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5632687238803382174}
   m_Mesh: {fileID: 8926027954496183188, guid: 71e31b58774b4e14b2aa1359a4a8a924, type: 3}
---- !u!114 &5718036171392974168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5632687238803382174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloneObj: {fileID: 5632687238803382174}
-  type: 3
-  gf: {fileID: 0}
 --- !u!1 &6092297261827478442
 GameObject:
   m_ObjectHideFlags: 0

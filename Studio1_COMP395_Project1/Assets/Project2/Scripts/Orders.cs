@@ -28,8 +28,8 @@ public class Orders {
 
     public static string[] orderTexts = {
         "1x Patty\n",
-        "1x Patty\n1x American Cheese",
-        "1x Patty\n1x American Cheese\n1x Bacon\n1x Lettuce\n1x Tomato"
+        "1x Patty\n1x American Cheese\n",
+        "1x Patty\n1x American Cheese\n1x Bacon\n1x Lettuce\n1x Tomato\n"
     };
 
     // public Orders( string args ) {
