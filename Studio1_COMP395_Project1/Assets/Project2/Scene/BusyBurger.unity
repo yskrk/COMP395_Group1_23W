@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,397 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &21282719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6235760540388811781, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+  m_PrefabInstance: {fileID: 1588706885457364770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &21282724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21282719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'SWISS CHEESE <br>Nutritional Facts: <br>Calories: 106 <br>Fat: 7.78g
+    <br>Sodium: 52.76mg <br>Carbohydrates: 1.51g <br>Fiber: 0g <br>Sugars: 0.37g
+    <br>Protein: 7.54g'
+--- !u!54 &21282725
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21282719}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &21282726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21282719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3706369, y: 0.012672548, z: 0.3706369}
+  m_Center: {x: 0.00000017881398, y: -0.0000000018626451, z: -0.00000022351742}
+--- !u!1 &41105088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2599876107104571397, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &41105093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41105088}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5492171, y: 0.0073595564, z: 0.81517977}
+  m_Center: {x: 0.0033203673, y: 0.0036797656, z: 0.014895206}
+--- !u!54 &41105094
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41105088}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &41105095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41105088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
+--- !u!1 &100576957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2340820293416415029, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &100576962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100576957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!114 &100576963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100576957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!65 &100576964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100576957}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40448788, y: 0.03386881, z: 0.40448788}
+  m_Center: {x: 0.000042364012, y: -0.011143956, z: -0.000042364012}
+--- !u!54 &100576965
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100576957}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &103708949 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2376701708792786528, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &103708954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103708949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!65 &103708955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103708949}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40448788, y: 0.03386881, z: 0.40448788}
+  m_Center: {x: 0.000042364012, y: -0.011143956, z: -0.00004260243}
+--- !u!54 &103708956
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103708949}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &182108496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1881671968817785475, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
+  m_PrefabInstance: {fileID: 1960620320102521753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &182108503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182108496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN TOP: <br>Nutrional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &223294729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4346035003081733413, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+  m_PrefabInstance: {fileID: 1588706885457364770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &223294734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223294729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'SWISS CHEESE <br>Nutritional Facts: <br>Calories: 106 <br>Fat: 7.78g
+    <br>Sodium: 52.76mg <br>Carbohydrates: 1.51g <br>Fiber: 0g <br>Sugars: 0.37g
+    <br>Protein: 7.54g'
+--- !u!65 &223294735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223294729}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3706369, y: 0.012672548, z: 0.3706369}
+  m_Center: {x: 0.00000017881398, y: -0.0000000018626451, z: 0.000000014901165}
+--- !u!54 &223294736
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223294729}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &227594941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3955830715215094355, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &227594948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227594941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: YOU CAN HAZ BORGIR
 --- !u!1 &237035658
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,11 +590,215 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237035658}
   m_CullTransparentMesh: 1
+--- !u!1 &279077345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5622510688700721334, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &279077352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279077345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &294941986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1760303541700230757, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &294941993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294941986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '100% BEEF PATTY  <br>Nutritional Facts: <br>Calories: 150 <br>Calories
+    from Fat: 100 <br>Fat: 11g <br>Sodium: 260mg <br>Carbohydrates: 0g <br>Fiber:
+    0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &297657358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2573769503159219002, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &297657363
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297657358}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &297657364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297657358}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &334635965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4704362725628454708, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+  m_PrefabInstance: {fileID: 6858860571448903057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &334635971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334635965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'ONION <br>Nutritional Facts: <br>Calories: 44 <br>Fat: 0.1g <br>Sodium:
+    4.4mg <br>Carbohydrates: 10.3g <br>Fiber: 1.9g <br>Sugars: 4.7g <br>Protein:
+    1.2g'
+--- !u!1 &364097093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6645001105233042975, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &364097095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364097093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
 --- !u!1 &364890107 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7255090965846887021, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
   m_PrefabInstance: {fileID: 3755095654152086215}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &364890108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364890107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &401213084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7726076483373776110, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &401213089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401213084}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18876508, y: 0.009959513, z: 0.36896452}
+  m_Center: {x: -0.0017777017, y: 0.0049797418, z: -0.15788259}
+--- !u!114 &401213091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401213084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &405062473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7628093392623064427, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
+  m_PrefabInstance: {fileID: 1960620320102521753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &405062480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405062473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN TOP: <br>Nutrional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
 --- !u!1 &415881107
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,6 +1010,313 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450159186}
   m_CullTransparentMesh: 1
+--- !u!1 &538052283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8592376791823585514, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &538052288
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538052283}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411871, y: 0.009959507, z: 0.19995841}
+  m_Center: {x: -1.7000273e-19, y: -0.0049797487, z: 0.0018027909}
+--- !u!54 &538052289
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538052283}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &538052290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538052283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &583671777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2368236331337685337, guid: fda400d0e63a0a3479008116dcbb361e, type: 3}
+  m_PrefabInstance: {fileID: 4736676339123929790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &583671784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583671777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'TOMATO <br>Nutritional Facts: <br>Calories: 16 <br>Fat: 0.2g <br>Sodium:
+    5mg <br>Carbohydrates: 3.5g <br>Fiber: 1.1g <br>Sugars: 2.4g <br>Protein: 0.8g '
+--- !u!1 &590746310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1499485536832698114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &590746315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590746310}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -1.7358025e-17, y: -0.0049797487, z: 0.0018029106}
+--- !u!54 &590746316
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590746310}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &590746317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590746310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &596063297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2457617051959732474, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &596063302
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596063297}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &596063303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596063297}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.54921705, y: 0.0073595564, z: 0.8151796}
+  m_Center: {x: 0.0033203668, y: 0.0036797535, z: 0.014895441}
+--- !u!114 &596063304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596063297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
+--- !u!1 &597610302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6417126740578654198, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &597610307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597610302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!65 &597610308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597610302}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40448788, y: 0.03386881, z: 0.40448788}
+  m_Center: {x: 0.000042364012, y: -0.011143953, z: -0.00004260243}
+--- !u!54 &597610309
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597610302}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &607201558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3778866661611772841, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
+  m_PrefabInstance: {fileID: 1960620320102521753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &607201565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607201558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN TOP: <br>Nutrional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
 --- !u!1001 &608682242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -484,11 +1386,544 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 183973c37da18b84581275bfc612409d, type: 3}
+--- !u!1 &620882079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6321093222511513510, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &620882084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620882079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!65 &620882085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620882079}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40448788, y: 0.03386881, z: 0.40448788}
+  m_Center: {x: 0.000042364012, y: -0.011143986, z: -0.00004260243}
+--- !u!54 &620882086
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620882079}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &633665944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2656187794834864177, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &633665949
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633665944}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &633665950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633665944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.54921716, y: 0.0073595564, z: 0.8151798}
+  m_Center: {x: 0.0033203664, y: 0.0036797614, z: 0.0148947295}
+--- !u!114 &633665951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633665944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
+--- !u!1 &696324463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696324464}
+  - component: {fileID: 696324466}
+  - component: {fileID: 696324465}
+  m_Layer: 5
+  m_Name: FoodFactText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &696324464
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696324463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 787990793}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -30, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &696324465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696324463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &696324466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696324463}
+  m_CullTransparentMesh: 1
+--- !u!1 &730388007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8803584480293433749, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &730388014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730388007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &764288595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4234523054318516461, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &764288602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764288595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
 --- !u!4 &779792201 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7815050034124332946, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
   m_PrefabInstance: {fileID: 1960620320102521753}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &787990792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787990793}
+  - component: {fileID: 787990796}
+  - component: {fileID: 787990795}
+  - component: {fileID: 787990794}
+  m_Layer: 5
+  m_Name: FoodFacts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &787990793
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787990792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 696324464}
+  m_Father: {fileID: 2123168557}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1109.9999, y: 689.99976}
+  m_SizeDelta: {x: 300, y: 350}
+  m_Pivot: {x: 1.0000001, y: 0.99999994}
+--- !u!114 &787990794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787990792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1db0ca6c2806b914895390b7458929c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 696324465}
+--- !u!114 &787990795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787990792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &787990796
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787990792}
+  m_CullTransparentMesh: 1
+--- !u!1 &791626501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1844116801668355436, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &791626503
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791626501}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1887651, y: 0.009959527, z: 0.69275}
+  m_Center: {x: -0.0017779403, y: 0.0049797487, z: 0.0040100683}
+--- !u!54 &791626504
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791626501}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &791626505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791626501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &792521132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5506011339440400198, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &792521137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792521132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411883, y: 0.009959507, z: 0.19995853}
+  m_Center: {x: 0.00000023841858, y: -0.0049797487, z: 0.0018029112}
+--- !u!54 &792521138
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792521132}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &792521139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792521132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
 --- !u!1001 &798972487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -558,6 +1993,26 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 183973c37da18b84581275bfc612409d, type: 3}
+--- !u!1 &875141311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7255905187503704981, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &875141316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875141311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
 --- !u!1 &875275058
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +2107,140 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &905967723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8145540858584123565, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &905967728
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905967723}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.549217, y: 0.0073595564, z: 0.8151796}
+  m_Center: {x: 0.003320367, y: 0.0036797647, z: 0.014895203}
+--- !u!54 &905967729
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905967723}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &905967730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905967723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
+--- !u!1 &916005202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6121564590282923665, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &916005207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916005202}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -3.3156724e-17, y: -0.0049797413, z: 0.001803149}
+--- !u!54 &916005208
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916005202}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &916005209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916005202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
 --- !u!1 &924251705
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +2376,132 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924251705}
   m_CullTransparentMesh: 1
+--- !u!1 &927861871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4096307950131926410, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+  m_PrefabInstance: {fileID: 6858860571448903057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &927861877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927861871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'ONION <br>Nutritional Facts: <br>Calories: 44 <br>Fat: 0.1g <br>Sodium:
+    4.4mg <br>Carbohydrates: 10.3g <br>Fiber: 1.9g <br>Sugars: 4.7g <br>Protein:
+    1.2g'
+--- !u!1 &932203245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5387508362338749166, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &932203247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932203245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &966071762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5140619419585366045, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &966071767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966071762}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411871, y: 0.009959507, z: 0.19995841}
+  m_Center: {x: -1.7000273e-19, y: -0.0049797413, z: 0.0018031485}
+--- !u!54 &966071768
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966071762}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &966071769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966071762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &989625483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1464022080181827960, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &989625490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989625483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '100% BEEF PATTY  <br>Nutritional Facts: <br>Calories: 150 <br>Calories
+    from Fat: 100 <br>Fat: 11g <br>Sodium: 260mg <br>Carbohydrates: 0g <br>Fiber:
+    0g <br>Sugars: 0g <br>Protein: 12g'
 --- !u!114 &998641373 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5270506834305633929, guid: 183973c37da18b84581275bfc612409d, type: 3}
@@ -798,6 +2513,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a6e6d413b6cf74abbd6f253980b909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1059032345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5110635497272267707, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1059032352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059032345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '100% BEEF PATTY  <br>Nutritional Facts: <br>Calories: 150 <br>Calories
+    from Fat: 100 <br>Fat: 11g <br>Sodium: 260mg <br>Carbohydrates: 0g <br>Fiber:
+    0g <br>Sugars: 0g <br>Protein: 12g'
 --- !u!4 &1068214002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5751601449602100805, guid: aa961445a6a53d74797fdb63bbb0e090, type: 3}
@@ -825,11 +2560,175 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a6e6d413b6cf74abbd6f253980b909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1107076225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8319539893361868671, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1107076230
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107076225}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1107076231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107076225}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.54921705, y: 0.0073595564, z: 0.81517965}
+  m_Center: {x: 0.0033203668, y: 0.003679761, z: 0.014894728}
+--- !u!114 &1107076232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107076225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
+--- !u!1 &1118606303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 475174578334919161, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1118606305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118606303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &1126397750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1393390446824998379, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1126397757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126397750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '100% BEEF PATTY  <br>Nutritional Facts: <br>Calories: 150 <br>Calories
+    from Fat: 100 <br>Fat: 11g <br>Sodium: 260mg <br>Carbohydrates: 0g <br>Fiber:
+    0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &1129075506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2692815620366397127, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129075513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129075506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
 --- !u!4 &1133075223 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4760448434974122420, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
   m_PrefabInstance: {fileID: 9117958943264244757}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1148263905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6372528852937258651, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1148263907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148263905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &1154633182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6092297261827478442, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1154633187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154633182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
 --- !u!1 &1196915872
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +2805,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196915872}
   m_CullTransparentMesh: 1
+--- !u!1 &1202802628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2825528734184708840, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1202802633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202802628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!54 &1202802634
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202802628}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1202802635
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202802628}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: 0.00000023841858, y: -0.0049797487, z: 0.001803149}
 --- !u!1 &1293437505
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,11 +2948,164 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293437505}
   m_CullTransparentMesh: 1
+--- !u!1 &1299769900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 229894689735886589, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1299769905
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299769900}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1299769906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299769900}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18876505, y: 0.009959527, z: 0.6927498}
+  m_Center: {x: -0.0017781784, y: 0.0049797487, z: 0.0040100673}
+--- !u!114 &1299769908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299769900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
 --- !u!1 &1303940822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8952240996987572068, guid: fd24b0c381ad70f45bc1ca12b1e33430, type: 3}
   m_PrefabInstance: {fileID: 1864277892}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1309223421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1062602770692453349, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1309223428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309223421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &1334728731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4331243177110855430, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1334728736
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334728731}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1334728737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334728731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -0.000000059604645, y: -0.0049797487, z: 0.0018029106}
+--- !u!114 &1334728738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334728731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
 --- !u!1001 &1345341978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1065,6 +3184,73 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6162409624748242242, guid: fd24b0c381ad70f45bc1ca12b1e33430, type: 3}
   m_PrefabInstance: {fileID: 1864277892}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1355858261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8071777192199798009, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1355858266
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355858261}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1355858267
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355858261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -1.7358025e-17, y: -0.0049797413, z: 0.0018027914}
+--- !u!114 &1355858268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355858261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
 --- !u!1 &1357201240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,6 +3327,184 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357201240}
   m_CullTransparentMesh: 1
+--- !u!1 &1399775103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2386443280370360849, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1399775108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399775103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!1 &1412972595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6377850606422127290, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1412972602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412972595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &1442494209 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4418674182579392718, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1442494214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442494209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!1 &1444630594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7893489577466383310, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1444630599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444630594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!1 &1453058880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8263320187526994114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1453058885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453058880}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411883, y: 0.009959507, z: 0.19995853}
+  m_Center: {x: -6.928596e-17, y: -0.0049797487, z: 0.0018029112}
+--- !u!54 &1453058886
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453058880}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1453058887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453058880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &1461096025 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2598747669954461322, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1461096032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461096025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 
+--- !u!114 &1461096033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461096025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
 --- !u!1 &1497936254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,6 +3658,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 341460f08b975f64789f439aa4c94437, type: 3}
+--- !u!1 &1507929741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6743040961228058048, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1507929743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507929741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
 --- !u!1 &1516466078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +3821,419 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1561682144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7990073723407244370, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1561682149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561682144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!65 &1561682150
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561682144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40448788, y: 0.03386881, z: 0.40448788}
+  m_Center: {x: 0.000042364012, y: -0.011143941, z: -0.00004260243}
+--- !u!54 &1561682151
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561682144}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1576577980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6363485584883642743, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1576577982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576577980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &1595197778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9189745939876421092, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1595197783
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595197778}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1595197784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595197778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -0.00000023841858, y: -0.0049797413, z: 0.0018029106}
+--- !u!114 &1595197785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595197778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &1610011209 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3621308067860960208, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1610011214
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610011209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411883, y: 0.009959507, z: 0.19995853}
+  m_Center: {x: -6.928596e-17, y: -0.0049797413, z: 0.0018029112}
+--- !u!54 &1610011215
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610011209}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1610011216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610011209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &1644494994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6176479166413641986, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1644494999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644494994}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411883, y: 0.009959507, z: 0.19995853}
+  m_Center: {x: 0.00000023841858, y: -0.0049797413, z: 0.0018026727}
+--- !u!54 &1644495000
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644494994}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1644495001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644494994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &1659194587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8834485650251822135, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1659194589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659194587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &1666033321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3990571093244655271, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1666033323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666033321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &1666471126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4073449128096831563, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1666471131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666471126}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -2.5901457e-17, y: -0.0049797487, z: 0.0018029106}
+--- !u!54 &1666471132
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666471126}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1666471133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666471126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &1717484925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4150940088622544570, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1717484932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717484925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '100% BEEF PATTY  <br>Nutritional Facts: <br>Calories: 150 <br>Calories
+    from Fat: 100 <br>Fat: 11g <br>Sodium: 260mg <br>Carbohydrates: 0g <br>Fiber:
+    0g <br>Sugars: 0g <br>Protein: 12g'
 --- !u!1 &1755850793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,6 +4300,131 @@ MonoBehaviour:
   texts:
   - {fileID: 924251707}
   - {fileID: 415881109}
+--- !u!1 &1777448372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5194386241195289320, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1777448377
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777448372}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.54921705, y: 0.0073595564, z: 0.81517965}
+  m_Center: {x: 0.0033203668, y: 0.003679761, z: 0.014894728}
+--- !u!54 &1777448378
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777448372}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1777448379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777448372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
+--- !u!1 &1813235392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8757194767021073155, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1813235394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813235392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &1845068824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4166324053712752919, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1845068831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845068824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &1864248582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2192330368432888400, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1864248589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864248582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '100% BEEF PATTY  <br>Nutritional Facts: <br>Calories: 150 <br>Calories
+    from Fat: 100 <br>Fat: 11g <br>Sodium: 260mg <br>Carbohydrates: 0g <br>Fiber:
+    0g <br>Sugars: 0g <br>Protein: 12g'
 --- !u!1001 &1864277892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1570,6 +4491,246 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6165266518583460328, guid: fd24b0c381ad70f45bc1ca12b1e33430, type: 3}
   m_PrefabInstance: {fileID: 1864277892}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1868636370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5151504874695418330, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1868636375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868636370}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: 0, y: -0.0049797413, z: 0.0018029106}
+--- !u!54 &1868636376
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868636370}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1868636377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868636370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!1 &1871715429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7984979664399693881, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1871715435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871715429}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -1.0071244e-17, y: -0.0049797413, z: 0.0018029106}
+--- !u!114 &1871715436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871715429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
+--- !u!54 &1871715437
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871715429}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1909572560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9018083155073294779, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1909572567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909572560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &1940555609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7032560684887494540, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+  m_PrefabInstance: {fileID: 7050405199962574378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1940555614
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940555609}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1940555615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940555609}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.549217, y: 0.0073595564, z: 0.81517965}
+  m_Center: {x: 0.0033208434, y: 0.003679746, z: 0.014895203}
+--- !u!114 &1940555616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940555609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'LETTUCE <br>Nutritional Facts: <br>Calories: 10 <br>Fat: 0.1g <br>Sodium:
+    7.2mg <br>Carbohydrates: 2.1g <br>Fiber: 0.9g <br>Sugars: 1.4g <br>Protein: 0.6g'
+--- !u!1 &1944840065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6753749057749403582, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1944840070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944840065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
 --- !u!1 &1974826398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,6 +4823,151 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: 90, z: 0}
+--- !u!1 &1995316696 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 122935963433710017, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+  m_PrefabInstance: {fileID: 9117958943264244757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1995316703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995316696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BURGER BUN BOTTOM <br>Nutritional Facts: <br>Calories: 140 <br>Fat: 2.28g
+    <br>Sodium: 248mg <br>Carbohydrates: 23.3g <br>Fiber: 3.2g <br>Sugars: 3g <br>Protein:6.45g'
+--- !u!1 &2009566069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8736439726446886124, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2009566074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009566069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!1 &2025245040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5674951930522258061, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+  m_PrefabInstance: {fileID: 8908701227520348527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2025245047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025245040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: '100% BEEF PATTY  <br>Nutritional Facts: <br>Calories: 150 <br>Calories
+    from Fat: 100 <br>Fat: 11g <br>Sodium: 260mg <br>Carbohydrates: 0g <br>Fiber:
+    0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!1 &2053422942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3272654509945564100, guid: fda400d0e63a0a3479008116dcbb361e, type: 3}
+  m_PrefabInstance: {fileID: 4736676339123929790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2053422949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053422942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'TOMATO <br>Nutritional Facts: <br>Calories: 16 <br>Fat: 0.2g <br>Sodium:
+    5mg <br>Carbohydrates: 3.5g <br>Fiber: 1.1g <br>Sugars: 2.4g <br>Protein: 0.8g '
+--- !u!1 &2085797850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8342288757092037322, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+  m_PrefabInstance: {fileID: 4004684705452040970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2085797855
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085797850}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2085797856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085797850}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20411876, y: 0.009959507, z: 0.19995846}
+  m_Center: {x: -0.00000023841858, y: -0.0049797487, z: 0.0018027914}
+--- !u!114 &2085797857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085797850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'MUSHROOMS <br>Nutritional Facts: <br>Calories: 15 <br>Fat: 0.2g <br>Sodium:
+    3.5mg <br>Carbohydrates: 2.3g <br>Fiber: 0.7g <br>Sugars: 1.4g <br>Protein: 2.2g'
 --- !u!1 &2091810483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +5050,7 @@ RectTransform:
   - {fileID: 1293437506}
   - {fileID: 415881108}
   - {fileID: 237035659}
+  - {fileID: 787990793}
   m_Father: {fileID: 1755850794}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1814,6 +5121,113 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &2138976620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5300978803089518162, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2138976625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138976620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!1 &2140532092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7325782020291422254, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+  m_PrefabInstance: {fileID: 5718036171263273304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2140532097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140532092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'American Cheese <br>Nutritional Facts: <br>Calories: 75 <br>Fat: 6.3g
+    <br>Sodium: 342mg <br>Carbohydrates: 1.1g <br>Fiber: 0g <br>Sugars: 0.5g <br>Protein:
+    3.7g'
+--- !u!1 &2146075947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 289400840363628532, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+  m_PrefabInstance: {fileID: 3755095654152086215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2146075949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146075947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'BACON <br>Nutritional Facts: <br>Calories: 161 <br>Fat: 12g <br>Sodium:
+    579mg <br>Carbohydrates: 0.6g <br>Fiber: 0g <br>Sugars: 0g <br>Protein: 12g'
+--- !u!65 &2146075950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146075947}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18876505, y: 0.009959527, z: 0.6927498}
+  m_Center: {x: -0.0017784168, y: 0.0049797487, z: 0.004009829}
+--- !u!54 &2146075951
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146075947}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &736910310447475836 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4999140308885177636, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
@@ -1974,7 +5388,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7000953758317181299, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8966537715142714611}
+    - targetCorrespondingSourceObject: {fileID: 6235760540388811781, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 21282726}
+    - targetCorrespondingSourceObject: {fileID: 6235760540388811781, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 21282725}
+    - targetCorrespondingSourceObject: {fileID: 6235760540388811781, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 21282724}
+    - targetCorrespondingSourceObject: {fileID: 4346035003081733413, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 223294735}
+    - targetCorrespondingSourceObject: {fileID: 4346035003081733413, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 223294736}
+    - targetCorrespondingSourceObject: {fileID: 4346035003081733413, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 223294734}
   m_SourcePrefab: {fileID: 100100000, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
 --- !u!1001 &1960620320102521753
 PrefabInstance:
@@ -2039,7 +5474,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1881671968817785475, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 182108503}
+    - targetCorrespondingSourceObject: {fileID: 7628093392623064427, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 405062480}
+    - targetCorrespondingSourceObject: {fileID: 3778866661611772841, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 607201565}
   m_SourcePrefab: {fileID: 100100000, guid: 8f02c86e7fb8ce5478d75ec90cc3a8f5, type: 3}
 --- !u!4 &2375032422819327861 stripped
 Transform:
@@ -2121,7 +5565,70 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 229894689735886589, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1299769906}
+    - targetCorrespondingSourceObject: {fileID: 229894689735886589, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1299769905}
+    - targetCorrespondingSourceObject: {fileID: 229894689735886589, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1299769908}
+    - targetCorrespondingSourceObject: {fileID: 289400840363628532, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2146075951}
+    - targetCorrespondingSourceObject: {fileID: 289400840363628532, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2146075950}
+    - targetCorrespondingSourceObject: {fileID: 289400840363628532, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2146075949}
+    - targetCorrespondingSourceObject: {fileID: 1844116801668355436, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 791626505}
+    - targetCorrespondingSourceObject: {fileID: 1844116801668355436, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 791626504}
+    - targetCorrespondingSourceObject: {fileID: 1844116801668355436, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 791626503}
+    - targetCorrespondingSourceObject: {fileID: 6363485584883642743, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1576577982}
+    - targetCorrespondingSourceObject: {fileID: 6645001105233042975, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 364097095}
+    - targetCorrespondingSourceObject: {fileID: 7726076483373776110, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 401213089}
+    - targetCorrespondingSourceObject: {fileID: 7726076483373776110, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 401213091}
+    - targetCorrespondingSourceObject: {fileID: 6743040961228058048, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1507929743}
+    - targetCorrespondingSourceObject: {fileID: 8757194767021073155, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1813235394}
+    - targetCorrespondingSourceObject: {fileID: 8834485650251822135, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1659194589}
+    - targetCorrespondingSourceObject: {fileID: 6372528852937258651, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1148263907}
+    - targetCorrespondingSourceObject: {fileID: 5387508362338749166, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 932203247}
+    - targetCorrespondingSourceObject: {fileID: 3990571093244655271, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1666033323}
+    - targetCorrespondingSourceObject: {fileID: 475174578334919161, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1118606305}
+    - targetCorrespondingSourceObject: {fileID: 7255090965846887021, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 364890108}
   m_SourcePrefab: {fileID: 100100000, guid: b3184d4b8a10be743953242dc0cc7fef, type: 3}
 --- !u!1001 &4004684705452040970
 PrefabInstance:
@@ -2182,7 +5689,157 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2573769503159219002, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 297657364}
+    - targetCorrespondingSourceObject: {fileID: 2573769503159219002, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 297657363}
+    - targetCorrespondingSourceObject: {fileID: 2825528734184708840, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1202802635}
+    - targetCorrespondingSourceObject: {fileID: 2825528734184708840, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1202802634}
+    - targetCorrespondingSourceObject: {fileID: 2825528734184708840, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1202802633}
+    - targetCorrespondingSourceObject: {fileID: 8263320187526994114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1453058887}
+    - targetCorrespondingSourceObject: {fileID: 8263320187526994114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1453058886}
+    - targetCorrespondingSourceObject: {fileID: 8263320187526994114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1453058885}
+    - targetCorrespondingSourceObject: {fileID: 5506011339440400198, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 792521139}
+    - targetCorrespondingSourceObject: {fileID: 5506011339440400198, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 792521138}
+    - targetCorrespondingSourceObject: {fileID: 5506011339440400198, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 792521137}
+    - targetCorrespondingSourceObject: {fileID: 8071777192199798009, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1355858268}
+    - targetCorrespondingSourceObject: {fileID: 8071777192199798009, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1355858267}
+    - targetCorrespondingSourceObject: {fileID: 8071777192199798009, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1355858266}
+    - targetCorrespondingSourceObject: {fileID: 5140619419585366045, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 966071769}
+    - targetCorrespondingSourceObject: {fileID: 5140619419585366045, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 966071768}
+    - targetCorrespondingSourceObject: {fileID: 5140619419585366045, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 966071767}
+    - targetCorrespondingSourceObject: {fileID: 9189745939876421092, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595197785}
+    - targetCorrespondingSourceObject: {fileID: 9189745939876421092, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595197784}
+    - targetCorrespondingSourceObject: {fileID: 9189745939876421092, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595197783}
+    - targetCorrespondingSourceObject: {fileID: 6121564590282923665, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916005209}
+    - targetCorrespondingSourceObject: {fileID: 6121564590282923665, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916005208}
+    - targetCorrespondingSourceObject: {fileID: 6121564590282923665, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916005207}
+    - targetCorrespondingSourceObject: {fileID: 8342288757092037322, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2085797857}
+    - targetCorrespondingSourceObject: {fileID: 8342288757092037322, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2085797856}
+    - targetCorrespondingSourceObject: {fileID: 8342288757092037322, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2085797855}
+    - targetCorrespondingSourceObject: {fileID: 5151504874695418330, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868636377}
+    - targetCorrespondingSourceObject: {fileID: 5151504874695418330, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868636376}
+    - targetCorrespondingSourceObject: {fileID: 5151504874695418330, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868636375}
+    - targetCorrespondingSourceObject: {fileID: 3621308067860960208, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1610011216}
+    - targetCorrespondingSourceObject: {fileID: 3621308067860960208, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1610011215}
+    - targetCorrespondingSourceObject: {fileID: 3621308067860960208, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1610011214}
+    - targetCorrespondingSourceObject: {fileID: 6176479166413641986, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1644495001}
+    - targetCorrespondingSourceObject: {fileID: 6176479166413641986, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1644495000}
+    - targetCorrespondingSourceObject: {fileID: 6176479166413641986, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1644494999}
+    - targetCorrespondingSourceObject: {fileID: 1499485536832698114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 590746317}
+    - targetCorrespondingSourceObject: {fileID: 1499485536832698114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 590746316}
+    - targetCorrespondingSourceObject: {fileID: 1499485536832698114, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 590746315}
+    - targetCorrespondingSourceObject: {fileID: 8592376791823585514, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 538052290}
+    - targetCorrespondingSourceObject: {fileID: 8592376791823585514, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 538052289}
+    - targetCorrespondingSourceObject: {fileID: 8592376791823585514, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 538052288}
+    - targetCorrespondingSourceObject: {fileID: 4331243177110855430, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334728738}
+    - targetCorrespondingSourceObject: {fileID: 4331243177110855430, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334728737}
+    - targetCorrespondingSourceObject: {fileID: 4331243177110855430, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334728736}
+    - targetCorrespondingSourceObject: {fileID: 4073449128096831563, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1666471133}
+    - targetCorrespondingSourceObject: {fileID: 4073449128096831563, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1666471132}
+    - targetCorrespondingSourceObject: {fileID: 4073449128096831563, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1666471131}
+    - targetCorrespondingSourceObject: {fileID: 7984979664399693881, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1871715436}
+    - targetCorrespondingSourceObject: {fileID: 7984979664399693881, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1871715435}
+    - targetCorrespondingSourceObject: {fileID: 7984979664399693881, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1871715437}
   m_SourcePrefab: {fileID: 100100000, guid: ebb72820e522a9b429f3c646a6f62b2c, type: 3}
 --- !u!1001 &4736676339123929790
 PrefabInstance:
@@ -2243,7 +5900,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2368236331337685337, guid: fda400d0e63a0a3479008116dcbb361e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 583671784}
+    - targetCorrespondingSourceObject: {fileID: 3272654509945564100, guid: fda400d0e63a0a3479008116dcbb361e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2053422949}
   m_SourcePrefab: {fileID: 100100000, guid: fda400d0e63a0a3479008116dcbb361e, type: 3}
 --- !u!1001 &5258088713392744556
 PrefabInstance:
@@ -2377,7 +6040,82 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2376701708792786528, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 103708954}
+    - targetCorrespondingSourceObject: {fileID: 2376701708792786528, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 103708956}
+    - targetCorrespondingSourceObject: {fileID: 2376701708792786528, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 103708955}
+    - targetCorrespondingSourceObject: {fileID: 6417126740578654198, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 597610307}
+    - targetCorrespondingSourceObject: {fileID: 6417126740578654198, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 597610309}
+    - targetCorrespondingSourceObject: {fileID: 6417126740578654198, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 597610308}
+    - targetCorrespondingSourceObject: {fileID: 4418674182579392718, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1442494214}
+    - targetCorrespondingSourceObject: {fileID: 7325782020291422254, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2140532097}
+    - targetCorrespondingSourceObject: {fileID: 2386443280370360849, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1399775108}
+    - targetCorrespondingSourceObject: {fileID: 7990073723407244370, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1561682149}
+    - targetCorrespondingSourceObject: {fileID: 7990073723407244370, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1561682151}
+    - targetCorrespondingSourceObject: {fileID: 7990073723407244370, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1561682150}
+    - targetCorrespondingSourceObject: {fileID: 6321093222511513510, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 620882084}
+    - targetCorrespondingSourceObject: {fileID: 6321093222511513510, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 620882086}
+    - targetCorrespondingSourceObject: {fileID: 6321093222511513510, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 620882085}
+    - targetCorrespondingSourceObject: {fileID: 6753749057749403582, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1944840070}
+    - targetCorrespondingSourceObject: {fileID: 5300978803089518162, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2138976625}
+    - targetCorrespondingSourceObject: {fileID: 7255905187503704981, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 875141316}
+    - targetCorrespondingSourceObject: {fileID: 6092297261827478442, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1154633187}
+    - targetCorrespondingSourceObject: {fileID: 7893489577466383310, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1444630599}
+    - targetCorrespondingSourceObject: {fileID: 8736439726446886124, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2009566074}
+    - targetCorrespondingSourceObject: {fileID: 2340820293416415029, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 100576962}
+    - targetCorrespondingSourceObject: {fileID: 2340820293416415029, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 100576965}
+    - targetCorrespondingSourceObject: {fileID: 2340820293416415029, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 100576964}
+    - targetCorrespondingSourceObject: {fileID: 2340820293416415029, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 100576963}
   m_SourcePrefab: {fileID: 100100000, guid: 79c7abc1fa554df4b95fddcd129055d2, type: 3}
 --- !u!4 &5758120002910119528 stripped
 Transform:
@@ -2392,6 +6130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2091810484}
     m_Modifications:
+    - target: {fileID: 613858193969676844, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0257
+      objectReference: {fileID: 0}
     - target: {fileID: 1209043855528322041, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2436,14 +6178,68 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1640840210163798741, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09
+      objectReference: {fileID: 0}
     - target: {fileID: 1985157624845449539, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
       propertyPath: m_Name
       value: Onion
       objectReference: {fileID: 0}
+    - target: {fileID: 2623465807244130862, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.127
+      objectReference: {fileID: 0}
+    - target: {fileID: 3262089346546224138, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.162
+      objectReference: {fileID: 0}
+    - target: {fileID: 3802470992784488807, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.181
+      objectReference: {fileID: 0}
+    - target: {fileID: 5195705822914985674, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934296402798312477, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.052
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426770245303124669, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013431131739167406, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.091
+      objectReference: {fileID: 0}
+    - target: {fileID: 7163845781838565884, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202249222786233406, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516762844624551642, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0533
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054451193852361170, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.235
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4096307950131926410, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 927861877}
+    - targetCorrespondingSourceObject: {fileID: 4704362725628454708, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 334635971}
   m_SourcePrefab: {fileID: 100100000, guid: 6d8773fbd31e2a24fb2a173e91738633, type: 3}
 --- !u!1001 &7050405199962574378
 PrefabInstance:
@@ -2504,7 +6300,73 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2692815620366397127, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1129075513}
+    - targetCorrespondingSourceObject: {fileID: 8319539893361868671, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1107076231}
+    - targetCorrespondingSourceObject: {fileID: 8319539893361868671, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1107076230}
+    - targetCorrespondingSourceObject: {fileID: 8319539893361868671, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1107076232}
+    - targetCorrespondingSourceObject: {fileID: 2656187794834864177, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 633665950}
+    - targetCorrespondingSourceObject: {fileID: 2656187794834864177, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 633665949}
+    - targetCorrespondingSourceObject: {fileID: 2656187794834864177, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 633665951}
+    - targetCorrespondingSourceObject: {fileID: 2599876107104571397, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 41105094}
+    - targetCorrespondingSourceObject: {fileID: 2599876107104571397, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 41105093}
+    - targetCorrespondingSourceObject: {fileID: 2599876107104571397, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 41105095}
+    - targetCorrespondingSourceObject: {fileID: 2457617051959732474, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 596063303}
+    - targetCorrespondingSourceObject: {fileID: 2457617051959732474, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 596063302}
+    - targetCorrespondingSourceObject: {fileID: 2457617051959732474, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 596063304}
+    - targetCorrespondingSourceObject: {fileID: 5194386241195289320, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1777448378}
+    - targetCorrespondingSourceObject: {fileID: 5194386241195289320, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1777448377}
+    - targetCorrespondingSourceObject: {fileID: 5194386241195289320, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1777448379}
+    - targetCorrespondingSourceObject: {fileID: 7032560684887494540, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940555615}
+    - targetCorrespondingSourceObject: {fileID: 7032560684887494540, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940555614}
+    - targetCorrespondingSourceObject: {fileID: 7032560684887494540, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940555616}
+    - targetCorrespondingSourceObject: {fileID: 8145540858584123565, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 905967729}
+    - targetCorrespondingSourceObject: {fileID: 8145540858584123565, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 905967728}
+    - targetCorrespondingSourceObject: {fileID: 8145540858584123565, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 905967730}
   m_SourcePrefab: {fileID: 100100000, guid: dffc5993a3cd888439bc2ad965917b3e, type: 3}
 --- !u!1 &7393485105982321703 stripped
 GameObject:
@@ -2585,12 +6447,49 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2105713308607210824, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9050568357641197043}
+    - targetCorrespondingSourceObject: {fileID: 1464022080181827960, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 989625490}
+    - targetCorrespondingSourceObject: {fileID: 1393390446824998379, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1126397757}
+    - targetCorrespondingSourceObject: {fileID: 3955830715215094355, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 227594948}
+    - targetCorrespondingSourceObject: {fileID: 5110635497272267707, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1059032352}
+    - targetCorrespondingSourceObject: {fileID: 4150940088622544570, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1717484932}
+    - targetCorrespondingSourceObject: {fileID: 5674951930522258061, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2025245047}
+    - targetCorrespondingSourceObject: {fileID: 1760303541700230757, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 294941993}
+    - targetCorrespondingSourceObject: {fileID: 2192330368432888400, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1864248589}
   m_SourcePrefab: {fileID: 100100000, guid: 45e6d05364afc1445a3bc5e013cda8cd, type: 3}
 --- !u!4 &8966537715142714610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7666167756720317385, guid: 0e24884731ca828499c6510ff5bc4267, type: 3}
   m_PrefabInstance: {fileID: 1588706885457364770}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8966537715142714611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585085913401998929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002bcb3df42b508499ddf15e84484580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Choese
 --- !u!114 &9050568357641197043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2680,5 +6579,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5622510688700721334, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 279077352}
+    - targetCorrespondingSourceObject: {fileID: 1062602770692453349, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1309223428}
+    - targetCorrespondingSourceObject: {fileID: 4234523054318516461, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 764288602}
+    - targetCorrespondingSourceObject: {fileID: 8803584480293433749, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 730388014}
+    - targetCorrespondingSourceObject: {fileID: 6377850606422127290, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1412972602}
+    - targetCorrespondingSourceObject: {fileID: 2598747669954461322, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1461096033}
+    - targetCorrespondingSourceObject: {fileID: 2598747669954461322, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1461096032}
+    - targetCorrespondingSourceObject: {fileID: 122935963433710017, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1995316703}
+    - targetCorrespondingSourceObject: {fileID: 9018083155073294779, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1909572567}
+    - targetCorrespondingSourceObject: {fileID: 4166324053712752919, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1845068831}
   m_SourcePrefab: {fileID: 100100000, guid: 6e5999b85acf4bd4889892b9796907a7, type: 3}
