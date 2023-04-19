@@ -1213,7 +1213,6 @@ GameObject:
   - component: {fileID: 678099584596630184}
   - component: {fileID: 4417701428939163038}
   - component: {fileID: 6383686278813950168}
-  - component: {fileID: 1106746987906237734}
   m_Layer: 0
   m_Name: Bacon Slices
   m_TagString: Untagged
@@ -1286,21 +1285,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.05, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1106746987906237734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7255090965846887021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloneObj: {fileID: 7255090965846887021}
-  type: 9
-  gf: {fileID: 0}
 --- !u!1 &7726076483373776110
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ public class Plate : MonoBehaviour
     public TextMeshProUGUI tmp;
     public Image image;
     [SerializeField] public Orders order;
-    private float value = 1;
+    private float value = 1.0f;
     private int cursor = 0;
     private List<Tuple<int,FoodValues>> onPlate;
     public float maxTime = 60;
@@ -61,7 +61,7 @@ public class Plate : MonoBehaviour
 
     public void Recieve( GameObject obj , FoodValues top ) {
         
-        Instantiate(obj, new Vector3(-0.1f, yValue, gf.plateZpos), Quaternion.identity, transform);
+        Instantiate(obj, new Vector3(-0.1f, yValue, transform.position.z ), Quaternion.identity, transform);
         yValue += 0.055f;
         if ( top != order.recipe[cursor].Item2 ) {
             Debug.Log(order.recipe[cursor].Item2);
@@ -77,7 +77,6 @@ public class Plate : MonoBehaviour
     }
 
     public IEnumerator Serve() {
-        yValue = 0.5f;
         stars[0].SetActive( true );
         stars[1].SetActive( true );
         stars[2].SetActive( true );
@@ -107,9 +106,15 @@ public class Plate : MonoBehaviour
     }
 
     private void Reset() {
+        yValue = 0.5f;
         currentTime = 0;
         ordered = false;
         cursor = 0;
+        value = 1.0f;
+        foreach ( Transform t in transform.GetComponentInChildren<Transform>() ) {
+            if (t.CompareTag("GameController")){}
+            else Destroy(t.gameObject);
+        }
         foreach ( GameObject go in stars ) {
             go.SetActive( false );
         }

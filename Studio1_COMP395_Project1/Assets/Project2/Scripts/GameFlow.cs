@@ -10,26 +10,27 @@ public class GameFlow : MonoBehaviour
     public Transform plateSelector;
     public GameObject pan;
     public int plateNum = 0; //moves plates
-    public int plateZpos = -3;
     public int maxPlates = 3;
     public float minTime = 30;
     public float maxTime = 90;
     public float currentGameTime = 0;
     public float maxGameTime = 300;
-    public GameObject cookingFX;
     public Image timer;
     public Plate[] plates;
     public int lives = 10;
     public int maxLives = 10;
     public int score = 0;
     public TextMeshProUGUI[] texts;
+    private bool playing;
 
     void Start() {
-
+        StartCoroutine(Countdown());
+        playing = true;
     }
 
     void Update()
     {
+        if ( playing == false ) return;
         currentGameTime += Time.deltaTime;
         timer.fillAmount = Mathf.Clamp( currentGameTime / (maxGameTime / 0.67f) , 0f , 0.67f );
         if (Input.GetKeyDown("tab"))
@@ -86,7 +87,8 @@ public class GameFlow : MonoBehaviour
     }
 
     IEnumerator Countdown() {
-        yield return new WaitForSeconds( 0 );
+        yield return new WaitForSeconds( maxGameTime );
+        Debug.Log("End");
     }
 
 }
