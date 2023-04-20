@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Globals
 {
-    private static int score = 13698;
-    private static int platesServed = 12345;
+    private static int score = 0;
+    private static int platesServed = 0;
     private static int ordersLost = 0;
-    private static bool win = true;
+    private static bool win = false;
     public static void AddPoints( int x ) {
         score += x;
     }
