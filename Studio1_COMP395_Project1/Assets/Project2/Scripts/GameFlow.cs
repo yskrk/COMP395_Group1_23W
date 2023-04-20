@@ -37,13 +37,13 @@ public class GameFlow : MonoBehaviour
             plateSelector.position = plates[plateNum].transform.position;
             plates[plateNum].Activate();
         }
-        else if ( Input.GetKeyDown( KeyCode.RightArrow ) ) {
+        else if ( Input.GetKeyDown( KeyCode.RightArrow ) || Input.GetKeyDown( KeyCode.D ) ) {
             plates[plateNum].Deactivate();
             plateNum = (++plateNum) % maxPlates;
             plateSelector.position = plates[plateNum].transform.position;
             plates[plateNum].Activate();
         }
-        else if ( Input.GetKeyDown( KeyCode.LeftArrow ) ) {
+        else if ( Input.GetKeyDown( KeyCode.LeftArrow ) || Input.GetKeyDown( KeyCode.A )  ) {
             plates[plateNum].Deactivate();
             plateNum = (--plateNum) % maxPlates;
             if ( plateNum < 0 ) plateNum += maxPlates;
