@@ -659,13 +659,14 @@ GameObject:
   - component: {fileID: 7918024944439474500}
   - component: {fileID: 8703755229432299520}
   - component: {fileID: 8381209326934685575}
+  - component: {fileID: 7505894047795212046}
   m_Layer: 0
   m_Name: Clone Cutlet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1845507989736688190
 Transform:
   m_ObjectHideFlags: 0
@@ -779,6 +780,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5571966, y: 0.06448297, z: 0.5571966}
   m_Center: {x: 0, y: 0.03224148, z: 0}
+--- !u!114 &7505894047795212046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3850098320067698130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd7371f2d8d7847b26f34de062c9fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloneObj: {fileID: 0}
+  type: 2
+  gf: {fileID: 0}
 --- !u!1 &3955830715215094355
 GameObject:
   m_ObjectHideFlags: 0

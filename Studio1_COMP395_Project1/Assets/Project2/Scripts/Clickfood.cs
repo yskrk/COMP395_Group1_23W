@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Clickfood : MonoBehaviour
 {
-    public GameObject cloneObj;
-    public FoodValues type;
-    public GameFlow gf;
+    [SerializeField] private GameObject cloneObj;
+    [SerializeField] private FoodValues type;
+    [SerializeField] private GameFlow gf;
     private bool cooked = false;
     private bool cooking = false;
 

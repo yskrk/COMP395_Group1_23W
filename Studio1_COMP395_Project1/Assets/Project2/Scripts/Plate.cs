@@ -8,18 +8,17 @@ using TMPro;
 [Serializable]
 public class Plate : MonoBehaviour
 {
-    public TextMeshProUGUI tmp;
-    public Image image;
-    [SerializeField] public Orders order;
+    [SerializeField] private TextMeshProUGUI tmp;
+    [SerializeField] private Image image;
+    [SerializeField] private Orders order;
     private float value = 1.0f;
     private int cursor = 0;
-    private List<Tuple<int,FoodValues>> onPlate;
-    public float maxTime = 60;
-    public float currentTime = 0;
-    public bool ordered = false;
-    public GameFlow gf;
+    [SerializeField] private float maxTime = 30;
+    [SerializeField] private float currentTime = 0;
+    private bool ordered = false;
+    private GameFlow gf;
     private float yValue = 0.5f;
-    public GameObject[] stars;
+    [SerializeField] private GameObject[] stars;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +34,7 @@ public class Plate : MonoBehaviour
     }
 
     IEnumerator ChangeTimer() {
-        image.color = new Color( 1, 1 , 1 , 0.4f );
+        image.color = new Color( 1 , 1 , 1 , 0.4f );
         yield return new WaitForSeconds( maxTime/2 );
         image.color = new Color( 1 , 1 , 0 , 0.4f );
         yield return new WaitForSeconds( maxTime/4 );
@@ -77,6 +76,7 @@ public class Plate : MonoBehaviour
     }
 
     public IEnumerator Serve() {
+        Globals.AddPlates();
         stars[0].SetActive( true );
         stars[1].SetActive( true );
         stars[2].SetActive( true );
@@ -93,6 +93,7 @@ public class Plate : MonoBehaviour
         yield return new WaitForSeconds( 1f );
         float score = order.getMaxValue() * value * 100;
         gf.Score( Mathf.RoundToInt(score) );
+
         foreach ( Transform t in transform.GetComponentInChildren<Transform>() ) {
             if (t.CompareTag("GameController")){}
             else Destroy(t.gameObject);
@@ -102,6 +103,7 @@ public class Plate : MonoBehaviour
 
     private void Die() {
         gf.Damage();
+        Globals.AddLoss();
         Reset();
     }
 
@@ -128,4 +130,9 @@ public class Plate : MonoBehaviour
     public void Deactivate() {
         tmp.gameObject.SetActive(false);
     }
+
+    public bool GetOrdered() {
+        return ordered;
+    }
+
 }
